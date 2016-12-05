@@ -1,0 +1,8 @@
+@import 'abstracts/variables';
+@import 'pages/login';
+
+body {
+    background-color: $groen;
+    font-color: $wit;
+    font-family: Roboto, sans-serif;
+    }

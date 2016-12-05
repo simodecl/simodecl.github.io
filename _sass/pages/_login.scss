@@ -1,0 +1,35 @@
+#logo-wit {
+    display: block;
+    text-align: center;
+    margin:85px auto 0;
+    width: 80%;
+    max-width: 500px;
+
+}
+
+.form-wrap {
+    max-width: 350px;
+    color: $wit;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.login-input {
+    width: 80%;
+    max-width: 350px;
+    color: $wit;
+    background: transparent;
+    padding: 10px;
+    border: none;
+    border-bottom: solid 2px $wit;
+    transition: border 0.3s;
+}
+.login-btn {
+    color: $groen;
+    font-weight: bold;
+    background: $wit;
+    padding: 10px 20px;
+    margin: 20px auto;
+    float: right;
+}
