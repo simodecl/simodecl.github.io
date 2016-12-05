@@ -31,4 +31,22 @@ body {
     margin: 20px auto;
     float: right; }
 
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #6C6; }
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #6C6;
+  opacity: 1; }
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #6C6;
+  opacity: 1; }
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #6C6; }
+
 /*# sourceMappingURL=signup.css.map */
