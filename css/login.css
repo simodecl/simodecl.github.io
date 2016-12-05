@@ -36,5 +36,19 @@ body {
     text-align: center;
     margin: 100px auto;
     text-decoration: none; }
+  .form-wrap ::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #FFF; }
+  .form-wrap :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #FFF;
+    opacity: 1; }
+  .form-wrap ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #FFF;
+    opacity: 1; }
+  .form-wrap :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #FFF; }
 
 /*# sourceMappingURL=login.css.map */

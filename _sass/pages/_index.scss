@@ -10,7 +10,6 @@ body {
     margin:85px auto 0;
     width: 80%;
     max-width: 500px;
-
 }
 
 .form-wrap {
@@ -46,4 +45,19 @@ body {
         margin: 100px auto;
         text-decoration: none;
     }
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    $wit;
 }
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    $wit;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    $wit;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    $wit;
+}
+}
+
