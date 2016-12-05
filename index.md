@@ -1,6 +1,6 @@
 ---
 layout  : default
-title   : "New Media Design & Development I"
+title   : "Login"
 ---
 
 <img id='logo-wit' src="/resources/images/logo_wit.png">
@@ -15,5 +15,5 @@ title   : "New Media Design & Development I"
     <br>
     <button type="submit" class="login-btn">Log In</button>
   </form>
-  <button class="sign-up-link" href="/signup.html">Sign up</button>
+  <a class="sign-up-link" href="/signup.html">Sign up</a>
 </div>

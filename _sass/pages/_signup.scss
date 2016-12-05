@@ -1,52 +1,41 @@
 @import '../abstracts/variables';
 
 body {
-    background-color: $groen;
+    background-color: $wit;
 }
 
-#logo-wit {
+#logo-groen {
     display: block;
     text-align: center;
     margin:85px auto 0;
     width: 80%;
     max-width: 500px;
-
 }
 
 .form-wrap {
     max-width: 350px;
-    color: $wit;
+    color: $groen;
     display: block;
     text-align: center;
     margin: 0 auto;
 
 
-    .login-input {
+    .signup-input {
         width: 80%;
         max-width: 350px;
-        color: $wit;
+        color: $groen;
         background: transparent;
         padding: 10px;
         border: none;
-        border-bottom: solid 1px $wit;
+        border-bottom: solid 1px $groen;
         transition: border 0.3s;
     }
-    .login-btn {
-        color: $groen;
+    .signup-btn {
+        color: $wit;
         font-weight: bold;
-        background: $wit;
+        background: $groen;
         padding: 10px 20px;
         margin: 20px auto;
         float: right;
     }
-    .sign-up-link {
-        display: block;
-        border: none;
-        box-shadow: none;
-        background: transparent;
-        color: $wit;
-        text-align: center;
-        margin: 100px auto;
-        text-decoration: none;
-    }
-}
+}    
