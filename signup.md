@@ -1,5 +1,5 @@
 ---
-layout  : default
+layout  : login
 title   : "Signup"
 ---
 
@@ -7,8 +7,8 @@ title   : "Signup"
 
 <div class="form-wrap">
 <form class="signup-form">
-    <label for="signup-email"><i class="fa fa-envelope-o" aria-hidden="true"></i></label>
-    <input type="text" placeholder="Username" id="signup-email" class="signup-input"/>
+    <label for="signup-email"><i class="fa fa-envelope" aria-hidden="true"></i></label>
+    <input type="text" placeholder="E-mail" id="signup-email" class="signup-input"/>
     <br>
     <label for="signup-username"><i class="fa fa-user" aria-hidden="true"></i></label>
     <input type="text" placeholder="Username" id="signup-username" class="signup-input"/>

@@ -1,5 +1,5 @@
 ---
-layout  : default
+layout  : login
 title   : "Login"
 ---
 
