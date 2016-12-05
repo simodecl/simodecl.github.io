@@ -1,0 +1,44 @@
+#logo-wit {
+  display: block;
+  text-align: center;
+  margin: 85px auto 0;
+  width: 80%;
+  max-width: 500px; }
+
+.form-wrap {
+  max-width: 350px;
+  color: #FFF;
+  display: block;
+  text-align: center;
+  margin: 0 auto; }
+  .form-wrap .login-input {
+    width: 80%;
+    max-width: 350px;
+    color: #FFF;
+    background: transparent;
+    padding: 10px;
+    border: none;
+    border-bottom: solid 1px #FFF;
+    transition: border 0.3s; }
+  .form-wrap .login-btn {
+    color: #6C6;
+    font-weight: bold;
+    background: #FFF;
+    padding: 10px 20px;
+    margin: 20px auto;
+    float: right; }
+  .form-wrap .sign-up-link {
+    display: block;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    color: #FFF;
+    text-align: center;
+    margin: 100px auto; }
+
+body {
+  background-color: #6C6;
+  font-color: #FFF;
+  font-family: Roboto, sans-serif; }
+
+/*# sourceMappingURL=main.css.map */
