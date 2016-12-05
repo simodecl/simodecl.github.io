@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,IAAK;EACD,UAAU,ECFR,IAAI;EDGN,WAAW,EAAE,kBAAkB",
+"sources": ["../_sass/_main.scss","../_sass/abstracts/_variables.scss"],
+"names": [],
+"file": "main.css"
+}

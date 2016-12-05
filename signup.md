@@ -16,7 +16,7 @@ title   : "Signup"
     <label for="signup-password"><i class="fa fa-lock" aria-hidden="true"></i></label>
     <input type="password" placeholder="Password" id="signup-password" class="signup-input"/>
     <br>
-    <button type="submit" class="signup-btn">Log In</button>
+    <button type="submit" class="signup-btn">Sign Up</button>
   </form>
 </div>
 
