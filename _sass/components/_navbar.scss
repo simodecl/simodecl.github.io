@@ -1,8 +1,12 @@
+@import '../abstracts/variables';
+
 body, html{
   min-height: 100%;
   margin:0;
 }
-.navbar{
+nav{
+    z-index: 99;
+    background-color:$wit;
     width:100%;
     height:100px;
     position:fixed;

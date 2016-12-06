@@ -1,0 +1,79 @@
+@import '../abstracts/variables';
+h2{
+    color:#666;
+    margin-top:0.5em;
+}
+h3{
+    margin:0;
+}
+p{
+    margin:0;
+}
+.profile{
+    filter:grayscale(100%);
+}
+.user-info{
+    display:block;
+    overflow:auto;
+    .profile-pic{
+        width:40%;
+        float:left;
+        position: relative;
+    }
+    a{
+        display: block;
+        height:33%;
+        width:33%;
+        border-radius: 50%;
+        background-color: $groen;
+        position:absolute;
+        bottom:0;
+        right:-10px;
+    }
+    .icon{
+        img{
+            height:66%;
+            margin: 17% auto 0 auto;
+            display: block;
+        }
+    }
+    .user-image{
+    width:100%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+    border:solid 2px $groen;
+    float:left;
+    }
+    .user-image:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+    }
+    .user-text{
+        width:45%;
+        float:right;
+    }
+}
+
+.restaurant-name{
+    font-family:'Roboto Black', sans-serif;
+    font-weight: 900;
+    .time{
+        font-family: 'Roboto Light', sans-serif;
+        font-weight:100;
+        color:$groen;
+        font-size: 75%;
+    }
+}
+.recently-visited-list-item{
+    margin-bottom:10px;
+}
+.comment-text::before, .comment-text::after{
+    content:'"';
+}
+
+.comment-history, .recent{
+    margin-top:10px;
+    border-top:solid 2px #EEE;
+}

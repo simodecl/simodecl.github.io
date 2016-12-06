@@ -1,5 +1,14 @@
 body {
   font-color: #FFF;
-  font-family: Roboto, sans-serif; }
+  font-family: Roboto, sans-serif;
+  min-height: 100%;
+  margin: 0; }
+
+.container {
+  display: block;
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 5%;
+  padding-bottom: 120px; }
 
 /*# sourceMappingURL=main.css.map */
