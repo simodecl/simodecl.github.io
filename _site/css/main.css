@@ -4,7 +4,7 @@ body {
   min-height: 100%;
   margin: 0; }
 
-.container {
+.container{
   display: block;
   max-width: 90%;
   margin: 0 auto;
