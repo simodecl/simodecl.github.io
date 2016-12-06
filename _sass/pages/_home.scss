@@ -1,5 +1,9 @@
 #map {
+    overflow:inherit!important;
     width: 100%;
     max-width: 1024px;
     height: 400px;
+}
+.home{
+    filter:grayscale(100%);
 }
