@@ -18,5 +18,6 @@ title   : "Signup"
     <br>
     <button type="submit" class="signup-btn">Sign Up</button>
   </form>
+  <a class="log-in-link" href="/index.html">Log in</a>
 </div>
 

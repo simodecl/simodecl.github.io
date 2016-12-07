@@ -38,6 +38,13 @@ body {
         margin: 20px auto;
         float: right;
     }
+    .log-in-link {
+        display: block;
+        color: $groen;
+        text-align: center;
+        margin: 100px auto;
+        text-decoration: none;
+    }
 }    
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    $groen;
