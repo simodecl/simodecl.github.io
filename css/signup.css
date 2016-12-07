@@ -20,6 +20,7 @@ body {
     color: #6C6;
     background: transparent;
     padding: 10px;
+    padding-right: 0;
     border: none;
     border-bottom: solid 1px #6C6;
     transition: border 0.3s; }
@@ -28,7 +29,7 @@ body {
     font-weight: bold;
     background: #6C6;
     padding: 10px 20px;
-    margin: 20px auto;
+    margin: 20px;
     float: right;
     border: none;
     border-radius: 5px; }
