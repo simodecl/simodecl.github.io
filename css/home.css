@@ -8,9 +8,6 @@
   overflow: inherit !important;
   position: fixed; }
 
-.home {
-  filter: grayscale(100%); }
-
 .nearby {
   position: relative;
   background: #FFF;
@@ -22,5 +19,8 @@
   -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.33);
   -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.33);
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.33); }
+
+.home {
+  filter: grayscale(100%); }
 
 /*# sourceMappingURL=home.css.map */
