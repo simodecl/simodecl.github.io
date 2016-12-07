@@ -4,11 +4,18 @@ body {
   min-height: 100%;
   margin: 0; }
 
-.container{
+.container {
   display: block;
   max-width: 90%;
   margin: 0 auto;
   padding-top: 5%;
-  padding-bottom: 120px; }
+  padding-bottom: 120px;
+  min-height: 100%;
+  overflow: hidden; }
+
+.cf {
+  content: "";
+  display: block;
+  clear: both; }
 
 /*# sourceMappingURL=main.css.map */

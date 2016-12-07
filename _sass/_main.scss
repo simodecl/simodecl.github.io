@@ -13,4 +13,11 @@ body {
     margin:0 auto;
     padding-top:5%;
     padding-bottom:120px;
+    min-height: 100%;
+    overflow:hidden;
+}
+.cf{
+    content:"";
+    display: block;
+    clear: both;
 }
