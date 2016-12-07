@@ -12,12 +12,16 @@ p {
   filter: grayscale(100%); }
 
 .user-info {
-  display: block;
-  overflow: auto; }
+  max-height: 250px;
+  width: 100%;
+  overflow: inherit; }
   .user-info .profile-pic {
     width: 40%;
     float: left;
-    position: relative; }
+    position: relative;
+    max-height: 200px;
+    max-width: 200px;
+    margin-bottom: 20px; }
   .user-info a {
     display: block;
     height: 33%;
@@ -44,7 +48,9 @@ p {
     padding-top: 100%; }
   .user-info .user-text {
     width: 45%;
-    float: right; }
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%; }
 
 .restaurant-name {
   font-family: 'Roboto Black', sans-serif;
@@ -63,13 +69,14 @@ p {
 
 .comment-history, .recent {
   margin-top: 10px;
-  padding-left: 10%;
+  margin-right: 5%;
   border-top: solid 2px #EEE;
   width: 40%;
   float: left; }
 
 @media only screen and (max-width: 768px) {
   .comment-history, .recent {
-    width: 100%; } }
+    width: 100%;
+    padding-left: 0; } }
 
 /*# sourceMappingURL=profile.css.map */

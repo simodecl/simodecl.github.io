@@ -13,12 +13,16 @@ p{
     filter:grayscale(100%);
 }
 .user-info{
-    display:block;
-    overflow:auto;
+    max-height:250px;
+    width:100%;
+    overflow: inherit;
     .profile-pic{
         width:40%;
         float:left;
         position: relative;
+        max-height: 200px;
+        max-width: 200px;
+        margin-bottom: 20px;
     }
     a{
         display: block;
@@ -52,7 +56,9 @@ p{
     }
     .user-text{
         width:45%;
-        float:right;
+        float:left;
+        margin-left:10%;
+        margin-top: 5%;
     }
 }
 
@@ -75,7 +81,7 @@ p{
 
 .comment-history, .recent{
     margin-top:10px;
-    padding-left:10%;
+    margin-right: 5%;
     border-top:solid 2px #EEE;
     width:40%;
     float:left;
@@ -84,5 +90,6 @@ p{
 @media only screen and (max-width: 768px){
     .comment-history, .recent{
         width:100%;
+        padding-left:0;
     }
   }

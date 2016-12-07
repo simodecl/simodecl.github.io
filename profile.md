@@ -3,7 +3,7 @@ layout  : default
 title   : "Profile"
 ---
 <div class="container cf">
-    <div class="user-info">
+    <div class="user-info cf">
         <div class="profile-pic">
             <a href="settings.html"><span class="icon"><img src="resources/images/icons/edit.png" alt="Edit button"></span></a>
             <img src="resources/images/profile-placeholder.jpg" alt="Profile picture" class="user-image">
