@@ -28,8 +28,10 @@ body {
     font-weight: bold;
     background: #FFF;
     padding: 10px 20px;
-    margin: 20px auto;
-    float: right; }
+    margin: 20px;
+    float: right;
+    border: none;
+    border-radius: 5px; }
   .form-wrap .sign-up-link {
     display: block;
     color: #FFF;
