@@ -63,8 +63,9 @@ p {
 
 .comment-history, .recent {
   margin-top: 10px;
+  padding-left: 10%;
   border-top: solid 2px #EEE;
-  width: 49%;
+  width: 40%;
   float: left; }
 
 @media only screen and (max-width: 768px) {
