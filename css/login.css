@@ -63,6 +63,8 @@ body {
     text-align: center;
     margin: 100px auto 0;
     text-decoration: none; }
+  .form-wrap .sign-up-link:hover {
+    text-decoration: underline; }
   .form-wrap ::-webkit-input-placeholder {
     /* WebKit, Blink, Edge */
     color: #FFF; }

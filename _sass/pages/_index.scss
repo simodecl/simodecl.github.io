@@ -76,6 +76,9 @@ body {
         margin: 100px auto 0;
         text-decoration: none;
     }
+    .sign-up-link:hover{
+        text-decoration: underline;
+    }
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    $wit;
 }
