@@ -42,11 +42,25 @@ body {
   .form-wrap .login-btn:hover {
     transform: scale(1.1);
     -webkit-transform: scale(1.1); }
+  .form-wrap .warning {
+    color: #B00;
+    float: left;
+    font-size: 0.666rem;
+    border: solid 1px #B00;
+    padding: 5px;
+    border-radius: 5px;
+    max-width: 40%;
+    margin: 20px;
+    background-color: rgba(255, 0, 0, 0.05); }
+  .form-wrap .fa-exclamation-circle {
+    font-size: 2em;
+    padding: 2.5px 5px;
+    float: left; }
   .form-wrap .sign-up-link {
     display: block;
     color: #FFF;
     text-align: center;
-    margin: 100px auto;
+    margin: 100px auto 0;
     text-decoration: none; }
   .form-wrap ::-webkit-input-placeholder {
     /* WebKit, Blink, Edge */

@@ -52,11 +52,27 @@ body {
         transform: scale(1.1);    
         -webkit-transform: scale(1.1);
     }
+    .warning{
+        color: $red;
+        float: left;
+        font-size:0.666rem;
+        border:solid 1px $red;
+        padding:5px;
+        border-radius:5px;
+        max-width:40%;
+        margin:20px;
+        background-color:rgba(255,0,0,0.05);
+    }
+    .fa-exclamation-circle{
+        font-size:2em;
+        padding:2.5px 5px;
+        float:left;
+    }
     .sign-up-link {
         display: block;
         color: $wit;
         text-align: center;
-        margin: 100px auto;
+        margin: 100px auto 0;
         text-decoration: none;
     }
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */

@@ -46,7 +46,7 @@ body {
     display: block;
     color: #6C6;
     text-align: center;
-    margin: 100px auto;
+    margin: 100px auto 0;
     text-decoration: none; }
 
 ::-webkit-input-placeholder {

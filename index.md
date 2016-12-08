@@ -9,11 +9,12 @@ title   : "Login"
 <form class="login-form">
     <label for="login-username"><i class="fa fa-user" aria-hidden="true"></i></label>
     <input type="text" placeholder="Username" id="login-username" class="login-input"/>
-    <br>
+      <br>
     <label for="login-password"><i class="fa fa-lock" aria-hidden="true"></i></label>
     <input type="password" placeholder="Password" id="login-password" class="login-input"/>
-    <br>
+      <br>
     <button type="submit" class="login-btn">Log In</button>
   </form>
+  <div class="warning"><i class="fa fa-exclamation-circle fa-2" aria-hidden="true"></i> Please enter a valid username or password</div>
   <a class="sign-up-link" href="/signup.html">Sign up</a>
 </div>
