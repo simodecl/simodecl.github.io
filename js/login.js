@@ -9,8 +9,6 @@ $(document).ready(function(){
             }
         }
 
-    $('.warning').hide();
-
     $(".login-btn").click(function(e){
         e.preventDefault();
         var username = $('#login-username').val();
@@ -21,7 +19,7 @@ $(document).ready(function(){
             window.location += 'home.html';
             console.log('false');
         } else {
-            $('.warning').show();
+            $('.warning').show('40ms');
             console.log('true');
         }
                     

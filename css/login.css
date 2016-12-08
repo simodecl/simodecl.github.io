@@ -43,6 +43,7 @@ body {
     transform: scale(1.1);
     -webkit-transform: scale(1.1); }
   .form-wrap .warning {
+    display: none;
     color: #B00;
     float: left;
     font-size: 0.666rem;
@@ -54,7 +55,7 @@ body {
     background-color: rgba(255, 0, 0, 0.05); }
   .form-wrap .fa-exclamation-circle {
     font-size: 2em;
-    padding: 2.5px 5px;
+    padding: 2.5px;
     float: left; }
   .form-wrap .sign-up-link {
     display: block;

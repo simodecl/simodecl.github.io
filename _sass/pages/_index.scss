@@ -53,6 +53,7 @@ body {
         -webkit-transform: scale(1.1);
     }
     .warning{
+        display: none;
         color: $red;
         float: left;
         font-size:0.666rem;
@@ -65,7 +66,7 @@ body {
     }
     .fa-exclamation-circle{
         font-size:2em;
-        padding:2.5px 5px;
+        padding:2.5px;
         float:left;
     }
     .sign-up-link {
