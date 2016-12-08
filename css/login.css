@@ -25,6 +25,9 @@ body {
     border: none;
     border-bottom: solid 1px #FFF;
     transition: border 0.3s; }
+  .form-wrap .login-input:focus {
+    outline: none;
+    border-bottom: solid 2px #FFF; }
   .form-wrap .login-btn {
     color: #6C6;
     font-weight: bold;

@@ -32,6 +32,10 @@ body {
         border-bottom: solid 1px $wit;
         transition: border 0.3s;
     }
+    .login-input:focus{
+        outline:none;
+        border-bottom:solid 2px $wit;
+    }
     .login-btn {
         color: $groen;
         font-weight: bold;

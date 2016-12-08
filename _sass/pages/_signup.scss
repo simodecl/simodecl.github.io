@@ -32,6 +32,10 @@ body {
         border-bottom: solid 1px $groen;
         transition: border 0.3s;
     }
+    .signup-input:focus{
+        outline:none;
+        border-bottom:solid 2px $groen;
+    }
     .signup-btn {
         color: $wit;
         font-weight: bold;

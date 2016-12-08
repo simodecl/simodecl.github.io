@@ -25,6 +25,9 @@ body {
     border: none;
     border-bottom: solid 1px #6C6;
     transition: border 0.3s; }
+  .form-wrap .signup-input:focus {
+    outline: none;
+    border-bottom: solid 2px #6C6; }
   .form-wrap .signup-btn {
     color: #FFF;
     font-weight: bold;
