@@ -36,7 +36,12 @@ body {
     margin: 20px;
     float: right;
     border: none;
-    border-radius: 5px; }
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s; }
+  .form-wrap .signup-btn:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1); }
   .form-wrap .log-in-link {
     display: block;
     color: #6C6;

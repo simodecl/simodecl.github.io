@@ -45,6 +45,12 @@ body {
         float: right;
         border:none;
         border-radius:5px;
+        cursor:pointer;
+        transition:0.5s;
+    }
+    .login-btn:hover{
+        transform: scale(1.1);    
+        -webkit-transform: scale(1.1);
     }
     .sign-up-link {
         display: block;
