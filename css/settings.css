@@ -43,6 +43,9 @@ input[type="range"] {
     border: none;
     border-bottom: solid 1px #6C6;
     transition: border 0.3s; }
+  .form-wrap .input-settings:focus {
+    outline: none;
+    border-bottom: solid 2px #6C6; }
   .form-wrap .settings-btn {
     color: #FFF;
     font-weight: bold;
