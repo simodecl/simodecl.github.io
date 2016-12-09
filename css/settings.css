@@ -54,6 +54,9 @@ input[type="range"] {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.5s; }
+  .form-wrap .settings-btn:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1); }
 
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */

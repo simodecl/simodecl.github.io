@@ -47,6 +47,10 @@ input[type="range"]{
         border-bottom: solid 1px $groen;
         transition: border 0.3s;
     }
+    .input-settings:focus{
+        outline:none;
+        border-bottom:solid 2px $groen;
+    }
     .settings-btn{
         color: $wit;
         font-weight: bold;
@@ -58,6 +62,10 @@ input[type="range"]{
         border-radius:5px;
         cursor:pointer;
         transition:0.5s;
+    }
+    .settings-btn:hover{
+        transform: scale(1.1);    
+        -webkit-transform: scale(1.1);
     }
     
 }
