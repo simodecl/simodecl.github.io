@@ -10,6 +10,9 @@
     <loc>/profile.html</loc>
   </url>
   <url>
+    <loc>/settings.html</loc>
+  </url>
+  <url>
     <loc>/signup.html</loc>
   </url>
 </urlset>
