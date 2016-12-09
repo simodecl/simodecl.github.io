@@ -47,7 +47,8 @@ body {
     color: #6C6;
     text-align: center;
     margin: 100px auto 0;
-    text-decoration: none; }
+    text-decoration: none;
+    width: 33%; }
   .form-wrap .log-in-link:hover {
     text-decoration: underline; }
 
