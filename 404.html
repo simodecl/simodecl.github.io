@@ -18,7 +18,7 @@
     .logo-white{
         display: block;
         text-align: center;
-        margin:10px auto 0;
+        margin:10px auto 30px auto;
         width: 80%;
         max-width: 500px;
     }
@@ -27,7 +27,6 @@
         display: block;
         width: 90%;
         max-width: 1024px;
-        max-height:100%;
         margin: 0 auto;
         min-height: 100%;
         overflow: hidden;
@@ -48,12 +47,8 @@
     }
 .video-container {
 position: relative;
-padding-bottom: 65.25%;
 padding-top: 30px;
 height: 0;
-overflow: auto; 
--webkit-overflow-scrolling: touch;
-border: solid black 1px;
 
 } 
 .video-container iframe {
@@ -61,7 +56,7 @@ position: absolute;
 top: 0;
 left: 0;
 width: 100%;
-height: 100%;
+opacity:0;
 }
     </style>
 </head>
@@ -77,8 +72,8 @@ height: 100%;
             <p><a href="/home.html">Click here to go home!</a></p>
         </div>
     
-    <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&amp;autoplay=1" height="315" width="560" allowfullscreen="" frameborder="0">
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&amp;autoplay=1" allowfullscreen="" frameborder="0">
     </iframe>
 </div>
 </div>
