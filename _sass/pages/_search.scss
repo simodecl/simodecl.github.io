@@ -1,0 +1,87 @@
+@import '../abstracts/variables';
+.search{
+    filter: grayscale(100%);
+}
+.search-form{
+    color:$groen;
+}
+.results{
+    clear:both;
+    .search-result{
+        border-bottom:solid 1px #DDD;
+        padding:10px 5px;
+    }
+}
+#back-to-top{
+    position: fixed;
+    bottom:120px;
+    right:5%;
+    font-size:2rem;
+    color:$groen;
+    z-index: 9999;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+.search-input {
+        width: 80%;
+        max-width: 350px;
+        color: $groen;
+        background: transparent;
+        padding: 10px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        border: none;
+        border-bottom: solid 1px $groen;
+        transition: border 0.3s;
+    }
+    .search-input:focus{
+        outline:none;
+        border-bottom:solid 2px $groen;
+    }
+.search-btn {
+        color: $wit;
+        font-weight: bold;
+        background: $groen;
+        padding: 10px 20px;
+        margin: 20px;
+        float: right;
+        border:none;
+        border-radius:5px;
+        cursor:pointer;
+        transition:0.5s;
+    }
+    .search-btn:hover{
+        transform: scale(1.1);    
+        -webkit-transform: scale(1.1);
+    }
+h3{
+    margin:0;
+}
+p{
+    margin:0;
+}
+.restaurant-name{
+    font-family:'Roboto Black', sans-serif;
+    font-weight: 900;
+}
+input::-webkit-calendar-picker-indicator {
+    opacity: 100;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    $groen;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    $groen;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    $groen;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    $groen;
+}

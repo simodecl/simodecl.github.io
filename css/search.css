@@ -1,0 +1,89 @@
+.search {
+  filter: grayscale(100%); }
+
+.search-form {
+  color: #6C6; }
+
+.results {
+  clear: both; }
+  .results .search-result {
+    border-bottom: solid 1px #DDD;
+    padding: 10px 5px; }
+
+#back-to-top {
+  position: fixed;
+  bottom: 120px;
+  right: 5%;
+  font-size: 2rem;
+  color: #6C6;
+  z-index: 9999;
+  transition: opacity 0.2s ease-out;
+  opacity: 0; }
+
+#back-to-top.show {
+  opacity: 1; }
+
+.search-input {
+  width: 80%;
+  max-width: 350px;
+  color: #6C6;
+  background: transparent;
+  padding: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border: none;
+  border-bottom: solid 1px #6C6;
+  transition: border 0.3s; }
+
+.search-input:focus {
+  outline: none;
+  border-bottom: solid 2px #6C6; }
+
+.search-btn {
+  color: #FFF;
+  font-weight: bold;
+  background: #6C6;
+  padding: 10px 20px;
+  margin: 20px;
+  float: right;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s; }
+
+.search-btn:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1); }
+
+h3 {
+  margin: 0; }
+
+p {
+  margin: 0; }
+
+.restaurant-name {
+  font-family: 'Roboto Black', sans-serif;
+  font-weight: 900; }
+
+input::-webkit-calendar-picker-indicator {
+  opacity: 100; }
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #6C6; }
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #6C6;
+  opacity: 1; }
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #6C6;
+  opacity: 1; }
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #6C6; }
+
+/*# sourceMappingURL=search.css.map */

@@ -14,13 +14,26 @@
   padding: 10px 5%;
   max-width: 1024px;
   margin: 0 auto;
-  padding-bottom: 100px;
+  padding-bottom: 120px;
   box-sizing: border-box;
   -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.33);
   -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.33);
-  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.33); }
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.33);
+  overflow: auto; }
 
 .home {
   filter: grayscale(100%); }
+
+.title-green {
+  color: #6C6;
+  margin-bottom: 0; }
+
+.restaurant-address {
+  margin: 0; }
+
+.restaurant {
+  width: 45%;
+  padding: 2.5%;
+  float: left; }
 
 /*# sourceMappingURL=home.css.map */

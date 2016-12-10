@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,WAAW;EACP,MAAM,EAAE,eAAe",
+"sources": ["../_sass/pages/_favourites.scss"],
+"names": [],
+"file": "favourites.css"
+}
