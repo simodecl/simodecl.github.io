@@ -2,7 +2,8 @@
   filter: grayscale(100%); }
 
 .search-form {
-  color: #6C6; }
+  color: #6C6;
+  padding-bottom: 15px; }
 
 .results {
   clear: both; }

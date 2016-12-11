@@ -93,7 +93,18 @@
         tempStr += '</div>';
       };
       document.querySelector('.results').innerHTML = tempStr;
+
+      $('.search-input').bind('input', function(){
+          var search = $('#search-content').val();
+          var category = $('#search-category').val();
+          $('.search-result').hide();
+          $('.results').find('.search-result:contains(' + search + '):contains(' + category + ')').show();
+      });
+    
     };
+
+    
+
   }
   // Make an instance of the Search
   var app = new Search();
