@@ -32,37 +32,5 @@ title   : "Search"
     </form>
     <a href="" id="back-to-top" title="Back to top"><i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i></a>
     <div class="results">
-        <div class="search-result">
-            <h3 class="restaurant-name">Restaurant</h3>
-            <p>Street and number</p>
-        </div>
-        <div class="search-result">
-            <h3 class="restaurant-name">Restaurant</h3>
-            <p>Street and number</p>
-        </div>
-        <div class="search-result">
-            <h3 class="restaurant-name">Restaurant</h3>
-            <p>Street and number</p>
-        </div>
-        <div class="search-result">
-            <h3 class="restaurant-name">Restaurant</h3>
-            <p>Street and number</p>
-        </div>
-        <div class="search-result">
-            <h3 class="restaurant-name">Restaurant</h3>
-            <p>Street and number</p>
-        </div>
-        <div class="search-result">
-            <h3 class="restaurant-name">Restaurant</h3>
-            <p>Street and number</p>
-        </div>
-        <div class="search-result">
-            <h3 class="restaurant-name">Restaurant</h3>
-            <p>Street and number</p>
-        </div>
-        <div class="search-result">
-            <h3 class="restaurant-name">Restaurant</h3>
-            <p>Street and number</p>
-        </div>
     </div>
 </div>
