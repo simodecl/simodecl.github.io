@@ -10,18 +10,18 @@
                 $('#back-to-top').removeClass('show');
             }
         };
-    backToTop();
-    $(window).on('scroll', function () {
         backToTop();
-    });
-    $('#back-to-top').on('click', function (e) {
-        e.preventDefault();
-        $('html,body').animate({
-            scrollTop: 0
-        }, 333);
-    });
-}
-  
+        $(window).on('scroll', function () {
+            backToTop();
+        });
+        $('#back-to-top').on('click', function (e) {
+            e.preventDefault();
+            $('html,body').animate({
+                scrollTop: 0
+            }, 333);
+        });
+    }
+
   function Search() {
 
     // URL of the Search API
@@ -86,10 +86,11 @@
       for(var i=0;i<this._Results.length;i++) {
         var resto = this._Results[i];
         tempStr += '<div class="search-result">';
+        tempStr += '<i class="fa fa-star fa-star-o" aria-hidden="true"></i>';
         tempStr += '<h3 class="restaurant-name">' + resto.NAAM + '</h3>';
         tempStr += '<p>' + resto.STRAAT + ' ' + resto.NUMMER + '</p>';
         tempStr += '<a target="_blank" href="http://' + resto.WEBADRES + '">' + resto.WEBADRES + '</a>';
-        tempStr += '<p class="category"> ' + resto.CATEGORIE + ' / ' + resto.LABEL + '</p>'
+        tempStr += '<p class="category"> ' + resto.CATEGORIE + ' / ' + resto.LABEL + '</p>';
         tempStr += '</div>';
       };
       document.querySelector('.results').innerHTML = tempStr;
@@ -100,6 +101,13 @@
           $('.search-result').hide();
           $('.results').find('.search-result:contains(' + search + '):contains(' + category + ')').show();
       });
+
+
+        $('.fa-star').on('click', function(){
+                $(this).toggleClass('fa-star-o');
+        });
+
+    
     
     };
 
@@ -110,5 +118,7 @@
   var app = new Search();
   // Initialize the app
   app.init();
+
+  
   
 })();

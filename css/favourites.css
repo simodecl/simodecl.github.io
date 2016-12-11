@@ -4,7 +4,8 @@
 .favourite {
   border-bottom: solid 1px #EEE;
   overflow: auto;
-  padding-bottom: 5px; }
+  padding-bottom: 5px;
+  margin-bottom: 7.5px; }
 
 h3 {
   margin: 0; }
@@ -20,6 +21,9 @@ i {
   font-size: 2.5rem !important;
   color: #6C6;
   float: right;
-  margin-top: 0.5rem; }
+  margin-top: 0.2rem; }
+
+.unfavourite {
+  filter: grayscale(100%); }
 
 /*# sourceMappingURL=favourites.css.map */
