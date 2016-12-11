@@ -88,7 +88,7 @@
         tempStr += '<div class="search-result">';
         tempStr += '<h3 class="restaurant-name">' + resto.NAAM + '</h3>';
         tempStr += '<p>' + resto.STRAAT + ' ' + resto.NUMMER + '</p>';
-        tempStr += '<a target="_blank" href="' + resto.WEBADRES + '">' + resto.WEBADRES + '</a>';
+        tempStr += '<a target="_blank" href="http://' + resto.WEBADRES + '">' + resto.WEBADRES + '</a>';
         tempStr += '<p class="category"> ' + resto.CATEGORIE + ' / ' + resto.LABEL + '</p>'
         tempStr += '</div>';
       };
