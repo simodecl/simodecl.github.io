@@ -18,7 +18,7 @@
         e.preventDefault();
         $('html,body').animate({
             scrollTop: 0
-        }, 250);
+        }, 333);
     });
 }
   
@@ -64,6 +64,16 @@
     // Update the User Interface (UI)
     this.updateUI = function() {
       console.log('3. Update UI');
+
+      //function to sort by name
+      function compare(a,b) {
+        if (a.NAAM.toUpperCase() < b.NAAM.toUpperCase())
+            return -1;
+        if (a.NAAM.toUpperCase() > b.NAAM.toUpperCase())
+            return 1;
+        return 0;
+        }
+      this._Results.sort(compare);
 
       // Call function generateSearchUI
       this.generateSearchUI();
