@@ -64,6 +64,19 @@ h3{
 p{
     margin:0;
 }
+a{
+    color:$groen;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.category{
+        font-family: 'Roboto Light', sans-serif;
+        font-weight:100;
+        color:#999;
+        font-size: 75%;
+    }
 .restaurant-name{
     font-family:'Roboto Black', sans-serif;
     font-weight: 900;
