@@ -6,32 +6,10 @@
       function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom:13,
+          streetViewControl:false,
           center: new google.maps.LatLng(51.048017, 3.727666),
         });
-        
-        // Try HTML5 geolocation.
-        if(Modernizr.geolocation){
-               navigator.geolocation.getCurrentPosition(
-                   function(position){
-                       resolve(position);
-                   },
-                   function(error){
-                       switch(error.code)
-                       {
-                           case error.PERMISSION_DENIED: console.log("User did not share geolocation data");break;
-                           case error.POSITION_UNAVAILABLE: console.log("Could not detect current position");break;
-                           case error.TIMEOUT: console.log("Retrieving position timed out");break;
-                           default: console.log("Unknown Error");break;
-                       }
-                       reject(error);
-                   },
-                   {timeout:10000,enableHighAccuracy:true}
-               )
-           }
-           else{
-               reject("HTML5 Geolocation not supported!");
-           }
-           //
+
         if (navigator.geolocation) {
           navigator.geolocation.getCurrentPosition(function(position) {
             var pos = {
