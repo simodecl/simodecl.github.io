@@ -33,8 +33,13 @@
 .restaurant-address{
     margin:0;
 }
+.distance{
+    margin:0;
+    color:#666;
+}
 .restaurant{
-    width:45%;
+    width: 100%;
     padding:2.5%;
     float:left;
+    border-bottom:solid 1px #EEE;
 }
