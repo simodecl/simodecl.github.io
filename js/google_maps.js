@@ -1,4 +1,5 @@
 var map;
+var radius = 5;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
@@ -20,14 +21,13 @@ function initMap() {
           var coords = results.features[i].geometry.coordinates;
           var latLng = new google.maps.LatLng(coords[1], coords[0]);
 
-          var radius = Utils.calculateDistanceBetweenTwoCoordinates(coords[1], coords[0], pos.lat, pos.lng);
-          if (radius <= 5) {
+          var distance = Utils.calculateDistanceBetweenTwoCoordinates(coords[1], coords[0], pos.lat, pos.lng);
+          if (distance <= radius) {
             var marker = new google.maps.Marker({
               position: latLng,
               map: map,
               icon: 'resources/images/markers/ecoplan.png'
             });
-            return radius;
           };
         }
       }
@@ -52,7 +52,7 @@ function initMap() {
             fillOpacity: 0.25,
             map: map,
             center: { lat: pos.lat, lng: pos.lng },
-            radius: 5*1000
+            radius: radius*1000
           });
       selfMarker.setPosition(pos);
       map.setCenter(pos);
