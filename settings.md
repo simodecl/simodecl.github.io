@@ -3,7 +3,6 @@ layout  : default
 title   : "Settings"
 ---
 <div class="container">
-    <h2>User information</h2>
     <p><span class="bold">Name: </span><span id="name">placeholder</span></p>
     <p><span class="bold">E-mail address: </span><span id="email">placeholder</span></p>
     <p id="small-margin"><span class="bold">Location: </span></p>

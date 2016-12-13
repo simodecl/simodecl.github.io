@@ -1,5 +1,5 @@
 var map;
-var radius = 30;
+var radius = 5;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
@@ -34,6 +34,9 @@ var tempStr = '';
               map: map,
               icon: 'resources/images/markers/ecoplan.png'
             });
+          }else{
+            tempStr += '<p class="no-results">Sorry, we couldn\'t find anything.</p>';
+            break;
           };
         }
         document.querySelector('.results').innerHTML = tempStr;
@@ -53,10 +56,10 @@ var tempStr = '';
       });
       var cityCircle = new google.maps.Circle({
         strokeColor: '#66CC66',
-        strokeOpacity: 0.8,
+        strokeOpacity: 0.5,
         strokeWeight: 2,
         fillColor: '#66CC66',
-        fillOpacity: 0.25,
+        fillOpacity: 0.125,
         map: map,
         center: { lat: pos.lat, lng: pos.lng },
         radius: radius * 1000

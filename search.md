@@ -32,5 +32,6 @@ title   : "Search"
     </form>
     <a href="" id="back-to-top" title="Back to top"><i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i></a>
     <div class="results">
+        <div class="loader"></div>
     </div>
 </div>
