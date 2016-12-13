@@ -20,12 +20,11 @@ var tempStr = '';
         for (var i = 0; i < results.features.length; i++) {
           var coords = results.features[i].geometry.coordinates;
           var latLng = new google.maps.LatLng(coords[1], coords[0]);
-          
           var distance = Utils.calculateDistanceBetweenTwoCoordinates(coords[1], coords[0], pos.lat, pos.lng);
           if (distance <= radius) {
             
             tempStr += '<div class="restaurant">';
-            tempStr += '<h2 class="restaurant-name">' + results.features[i].properties.NAAM + '</h2>';
+            tempStr += '<h3 class="restaurant-name">' + results.features[i].properties.NAAM + '</h3>';
             tempStr += '<p class="restaurant-address">' + results.features[i].properties.STRAAT + ' ' + results.features[i].properties.NUMMER + '</p>';
             tempStr += '<p class="distance">' + distance.toFixed(1) + ' km</p>';
             tempStr += '</div>';
