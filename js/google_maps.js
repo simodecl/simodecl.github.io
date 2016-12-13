@@ -1,5 +1,5 @@
 var map;
-var radius = 35;
+var radius = 30;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
@@ -21,7 +21,9 @@ var tempStr = '';
         for (var i = 0; i < results.features.length; i++) {
           var coords = results.features[i].geometry.coordinates;
           var latLng = new google.maps.LatLng(coords[1], coords[0]);
+          
           var distance = Utils.calculateDistanceBetweenTwoCoordinates(coords[1], coords[0], pos.lat, pos.lng);
+
           if (distance <= radius) {
             
             tempStr += '<div class="restaurant">';
