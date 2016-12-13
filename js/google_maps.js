@@ -4,7 +4,8 @@ var radius = 35;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     zoom: 13,
-    center: new google.maps.LatLng(51.048017, 3.727666)
+    center: new google.maps.LatLng(51.048017, 3.727666),
+    streetViewControl: false
   });
 
   var pos = {};
