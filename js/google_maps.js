@@ -37,9 +37,6 @@ var tempStr = '';
               map: map,
               icon: 'resources/images/markers/ecoplan.png'
             });
-          }else{
-            tempStr += '<p class="no-results">Sorry, we couldn\'t find anything.</p>';
-            break;
           };
         }
         document.querySelector('.results').innerHTML = tempStr;
