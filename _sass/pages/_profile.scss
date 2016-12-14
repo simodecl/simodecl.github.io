@@ -58,7 +58,7 @@ p{
         width:45%;
         float:left;
         margin-left:10%;
-        margin-top: 5%;
+        margin-top: 10%;
     }
 }
 
@@ -75,6 +75,11 @@ p{
 .recently-visited-list-item{
     margin-bottom:10px;
 }
+.comment{
+    padding-top:10px;
+    padding-bottom:10px;
+    border-bottom:solid 1px #EEE;
+}
 .comment-text::before, .comment-text::after{
     content:'"';
 }
@@ -82,7 +87,6 @@ p{
 .comment-history, .recent{
     margin-top:10px;
     margin-right: 5%;
-    border-top:solid 2px #EEE;
     width:40%;
     float:left;
 }
