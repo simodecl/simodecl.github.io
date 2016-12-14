@@ -35,15 +35,15 @@ title   : "Profile"
         <h2>Comment history</h2>
         <div class="comment">
             <h3 class="restaurant-name">Restaurant name</h3>
-            <p class="comment-text">Content</p>
+            <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div class="comment">
             <h3 class="restaurant-name">Restaurant name</h3>
-            <p class="comment-text">Content</p>
+            <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <div class="comment">
             <h3 class="restaurant-name">Restaurant name</h3>
-            <p class="comment-text">Content</p>
+            <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
     </div>
 </div>
