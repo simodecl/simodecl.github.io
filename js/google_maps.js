@@ -16,8 +16,9 @@ function initMap() {
         lng: position.coords.longitude
       };
 
-var tempStr = '';
-      window.ecoplan_callback = function (results) {
+      var tempStr = '';
+      
+      Utils.getJSONByPromise('https://datatank.stad.gent/4/milieuennatuur/ecoplan.geojson').then(function (results) {
         for (var i = 0; i < results.features.length; i++) {
           var coords = results.features[i].geometry.coordinates;
           var latLng = new google.maps.LatLng(coords[1], coords[0]);
@@ -29,6 +30,7 @@ var tempStr = '';
             tempStr += '<div class="restaurant">';
             tempStr += '<h3 class="restaurant-name">' + results.features[i].properties.NAAM + '</h3>';
             tempStr += '<p class="restaurant-address">' + results.features[i].properties.STRAAT + ' ' + results.features[i].properties.NUMMER + '</p>';
+            tempStr += '<a target="_blank" href="http://' + results.features[i].properties.WEBADRES + '">' + results.features[i].properties.WEBADRES + '</a>';
             tempStr += '<p class="distance">' + distance.toFixed(1) + ' km</p>';
             tempStr += '</div>';
 
@@ -40,13 +42,7 @@ var tempStr = '';
           };
         }
         document.querySelector('.results').innerHTML = tempStr;
-      }
-
-
-      // Create a <script> tag and set the USGS URL as the source.
-      var script = document.createElement('script');
-      script.src = 'js/ecoplan.geojson';
-      document.getElementsByTagName('head')[0].appendChild(script);
+      });
 
       var selfMarker = new google.maps.Marker({
         position: new google.maps.LatLng(pos.lat, pos.lng),
