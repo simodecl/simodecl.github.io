@@ -13,7 +13,7 @@ title   : "Login"
     <label for="login-password"><i class="fa fa-lock" aria-hidden="true"></i></label>
     <input type="password" placeholder="Password" id="login-password" class="login-input"/>
       <br>
-    <button type="submit" class="login-btn">Log In</button>
+    <button type="submit" class="login-btn" onClick= "GebruikerInloggen()">Log In</button>
   </form>
   <div class="warning"><i class="fa fa-exclamation-circle fa-2" aria-hidden="true"></i> Please enter a valid username or password</div>
   <a class="sign-up-link" href="/signup.html">Sign up</a>

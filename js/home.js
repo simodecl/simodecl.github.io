@@ -27,8 +27,8 @@
     var bikemarker;
 
     Utils.getJSONByPromise('https://datatank.stad.gent/4/mobiliteit/bluebikedeelfietsensintpieters.json').then(function (fromResolve) {
-        bikecoords = fromResolve.geometry.coordinates;
-        bikelatLng = new google.maps.LatLng(bikecoords[1], bikecoords[0]);
+        bikecoords = fromResolve.geometry.coordinates;//foute coordinaten, dus heb locatie opgezocht en manueel coords gezocht
+        bikelatLng = new google.maps.LatLng(51.034926, 3.709651);
         bikemarker = new google.maps.Marker({
             position: bikelatLng,
             map: map,
