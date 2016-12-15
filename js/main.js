@@ -37,32 +37,33 @@ function GebruikerInloggen() {
 	var test = JSON.parse(localStorage.getItem('users'));
 	console.log(test);
 
-	var naamBestaat = "";
+	var loginNaam = "";
 
 	//Dit checked of de naam bestaat in de database
 	for (var i = 1; i < test.length; i++) {
 		if (JSON.parse(localStorage.getItem('users'))[i].gebruikersnaam == loginUsername) {
-			var naamBestaat = JSON.parse(localStorage.getItem('users'))[i].gebruikersnaam;
+			var loginNaam = JSON.parse(localStorage.getItem('users'))[i].gebruikersnaam;
 		} else {
 
 		}
 	};
 
 
-	if (naamBestaat !== "") {
-		console.log(naamBestaat);
+	if (loginNaam !== "") {
+		console.log(loginNaam);
 		for (var i = 1; i < test.length; i++) {
 
-			if (JSON.parse(localStorage.getItem('users'))[i].gebruikersnaam == naamBestaat && JSON.parse(localStorage.getItem('users'))[i].wachtwoord == loginPassword) {
+			if (JSON.parse(localStorage.getItem('users'))[i].gebruikersnaam == loginNaam && JSON.parse(localStorage.getItem('users'))[i].wachtwoord == loginPassword) {
 				console.log("Gebruikersnaam en Wachtwoord zijn juist!");
 				window.location += 'home.html';
 			} else {
-				$('.warning').show('40ms');
+				$('.warning').show(250);
 				console.log('warning');
 			}
 		};
 	} else {
-		console.log("Gebruikersnaam bestaat niet!");
+		$('.warning').show(250);
+		console.log("Invalid inputs!");
 	}
 
 };
