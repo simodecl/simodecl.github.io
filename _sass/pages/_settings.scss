@@ -31,14 +31,13 @@ input[type="range"]{
     width:100%;
 }
 .form-wrap {
-    max-width: 350px;
+    max-width: 500px;
     display: block;
     i{
         color:$groen;
     }
     .input-settings {
-        width: 80%;
-        max-width: 350px;
+        width: 90%;
         color: $groen;
         background: transparent;
         padding: 10px 0 5px 5px;

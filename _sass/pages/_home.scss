@@ -47,3 +47,17 @@
     float:left;
     border-bottom:solid 1px #EEE;
 }
+
+#back-to-top{
+    position: fixed;
+    bottom:100px;
+    right:5%;
+    font-size:3rem;
+    color:$groen;
+    z-index: 9999;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top.show {
+    opacity: 1;
+}
