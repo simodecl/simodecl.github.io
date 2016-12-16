@@ -4,7 +4,7 @@ title   : "Home"
 ---
 
 <div id="map"></div>
-<div class="nearby">
+<div class="container nearby">
     <h1 class="title-green">Nearby</h1>
     <a href="" id="back-to-top" title="Back to top"><i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i></a>
     <div class="results">

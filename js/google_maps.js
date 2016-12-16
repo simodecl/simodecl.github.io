@@ -1,5 +1,5 @@
 var map;
-var radius = 30;
+var radius = 25;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
