@@ -27,7 +27,6 @@ function GebruikerRegistreren() {
 	};
 
 }
-
 function GebruikerInloggen() {
 	event.preventDefault();
 	var loginUsername = document.getElementById('login-username').value;

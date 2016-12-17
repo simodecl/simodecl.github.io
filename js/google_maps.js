@@ -1,5 +1,5 @@
 var map;
-var radius = 25;
+var radius = 50;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
@@ -35,10 +35,26 @@ function initMap() {
             tempStr += '</div>';
 
             var marker = new google.maps.Marker({
+              properties: results.features[i].properties,
               position: latLng,
               map: map,
               icon: 'resources/images/markers/ecoplan.png'
+              
             });
+
+            var infowindow = new google.maps.InfoWindow({
+                        content: " "
+                      });
+                      google.maps.event.addListener(marker, 'click', function() {
+                        infowindow.setContent('<div class="restaurant">' +
+                            '<h3 class="restaurant-name">' + this.properties.NAAM + '</h3>' +
+                            '<p class="restaurant-address">' + this.properties.STRAAT + ' ' + this.properties.NUMMER + '</p>' +
+                            '<a target="_blank" href="http://' + this.properties.WEBADRES + '">' + this.properties.WEBADRES + '</a>' +
+                            '<p class="distance">' + distance.toFixed(1) + ' km</p>' +
+                            '</div>');
+                        infowindow.open(map, this);
+                      });
+
           };
         }
         document.querySelector('.results').innerHTML = tempStr;

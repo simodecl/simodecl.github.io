@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
     document.getElementById("slider").oninput = function() {
         myFunction();
     };
