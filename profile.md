@@ -14,36 +14,48 @@ title   : "Profile"
             <p>postal code and city</p>
         </div>
     </div>
-    <div class="recent">
-        <h2>Recently visited</h2>
-        <div class="recently-visited-list">
-            <div class="recently-visited-list-item">
-                <h3 class="restaurant-name">Restaurant name <span class="time"><time datetime="2016-12-12">12/12/2016</time></span></h3>
-                <p>Street and number</p>
-            </div>
-            <div class="recently-visited-list-item">
-                <h3 class="restaurant-name">Restaurant name <span class="time"><time datetime="2016-12-12">12/12/2016</time></span></h3>
-                <p>Street and number</p>
-            </div>
-            <div class="recently-visited-list-item">
-                <h3 class="restaurant-name">Restaurant name <span class="time"><time datetime="2016-12-12">12/12/2016</time></span></h3>
-                <p>Street and number</p>
-            </div>
+    <div class="favourites">
+    <h1 class="title-green">Favourites</h1>
+    <a href="" id="back-to-top" title="Back to top"><i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i></a>
+        <div class="favourite">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <h3 class="restaurant-name">Restaurant</h3>
+            <p>Street and number</p>
         </div>
-    </div>
-    <div class="comment-history">
-        <h2>Comment history</h2>
-        <div class="comment">
-            <h3 class="restaurant-name">Restaurant name</h3>
-            <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="favourite">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <h3 class="restaurant-name">Restaurant</h3>
+            <p>Street and number</p>
         </div>
-        <div class="comment">
-            <h3 class="restaurant-name">Restaurant name</h3>
-            <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="favourite">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <h3 class="restaurant-name">Restaurant</h3>
+            <p>Street and number</p>
         </div>
-        <div class="comment">
-            <h3 class="restaurant-name">Restaurant name</h3>
-            <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="favourite">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <h3 class="restaurant-name">Restaurant</h3>
+            <p>Street and number</p>
+        </div>
+        <div class="favourite">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <h3 class="restaurant-name">Restaurant</h3>
+            <p>Street and number</p>
+        </div>
+        <div class="favourite">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <h3 class="restaurant-name">Restaurant</h3>
+            <p>Street and number</p>
+        </div>
+        <div class="favourite">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <h3 class="restaurant-name">Restaurant</h3>
+            <p>Street and number</p>
+        </div>
+        <div class="favourite">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <h3 class="restaurant-name">Restaurant</h3>
+            <p>Street and number</p>
         </div>
     </div>
 </div>

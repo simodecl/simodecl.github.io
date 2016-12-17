@@ -16,6 +16,7 @@ p{
     max-height:250px;
     width:100%;
     overflow: inherit;
+    margin-bottom: 25px;
     .profile-pic{
         width:40%;
         float:left;
@@ -61,39 +62,47 @@ p{
         margin-top: 10%;
     }
 }
+.title-green{
+    color:$groen;
+    margin-bottom:0;
+}
 
+.favourite{
+    border-bottom: solid 1px #EEE;
+    overflow: auto;
+    padding-bottom: 5px;
+    margin-bottom: 7.5px;
+}
+h3{
+    margin:0;
+}
+p{
+    margin:0;
+}
 .restaurant-name{
     font-family:'Roboto Black', sans-serif;
     font-weight: 900;
-    .time{
-        font-family: 'Roboto Light', sans-serif;
-        font-weight:100;
-        color:$groen;
-        font-size: 75%;
-    }
 }
-.recently-visited-list-item{
-    margin-bottom:10px;
+i{
+    font-size:2.5rem !important;
+    color:$groen;
+    float: right;
+    margin-top:0.2rem;
 }
-.comment{
-    padding-top:10px;
-    padding-bottom:10px;
-    border-bottom:solid 1px #EEE;
-}
-.comment-text::before, .comment-text::after{
-    content:'"';
+.unfavourite{
+    filter:grayscale(100%);
 }
 
-.comment-history, .recent{
-    margin-top:10px;
-    margin-right: 5%;
-    width:40%;
-    float:left;
+#back-to-top{
+    position: fixed;
+    bottom:100px;
+    right:5%;
+    font-size:3rem;
+    color:$groen;
+    z-index: 9999;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
 }
-
-@media only screen and (max-width: 768px){
-    .comment-history, .recent{
-        width:100%;
-        padding-left:0;
-    }
-  }
+#back-to-top.show {
+    opacity: 1;
+}
