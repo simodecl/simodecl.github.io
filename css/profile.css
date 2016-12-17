@@ -14,7 +14,8 @@ p {
 .user-info {
   max-height: 250px;
   width: 100%;
-  overflow: inherit; }
+  overflow: inherit;
+  margin-bottom: 25px; }
   .user-info .profile-pic {
     width: 40%;
     float: left;
@@ -52,35 +53,46 @@ p {
     margin-left: 10%;
     margin-top: 10%; }
 
+.title-green {
+  color: #6C6;
+  margin-bottom: 0; }
+
+.favourite {
+  border-bottom: solid 1px #EEE;
+  overflow: auto;
+  padding-bottom: 5px;
+  margin-bottom: 7.5px; }
+
+h3 {
+  margin: 0; }
+
+p {
+  margin: 0; }
+
 .restaurant-name {
   font-family: 'Roboto Black', sans-serif;
   font-weight: 900; }
-  .restaurant-name .time {
-    font-family: 'Roboto Light', sans-serif;
-    font-weight: 100;
-    color: #6C6;
-    font-size: 75%; }
 
-.recently-visited-list-item {
-  margin-bottom: 10px; }
+i {
+  font-size: 2.5rem !important;
+  color: #6C6;
+  float: right;
+  margin-top: 0.2rem; }
 
-.comment {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-bottom: solid 1px #EEE; }
+.unfavourite {
+  filter: grayscale(100%); }
 
-.comment-text::before, .comment-text::after {
-  content: '"'; }
+#back-to-top {
+  position: fixed;
+  bottom: 100px;
+  right: 5%;
+  font-size: 3rem;
+  color: #6C6;
+  z-index: 9999;
+  transition: opacity 0.2s ease-out;
+  opacity: 0; }
 
-.comment-history, .recent {
-  margin-top: 10px;
-  margin-right: 5%;
-  width: 40%;
-  float: left; }
-
-@media only screen and (max-width: 768px) {
-  .comment-history, .recent {
-    width: 100%;
-    padding-left: 0; } }
+#back-to-top.show {
+  opacity: 1; }
 
 /*# sourceMappingURL=profile.css.map */
