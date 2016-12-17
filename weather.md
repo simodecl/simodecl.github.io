@@ -2,5 +2,4 @@
 layout  : default
 title   : "Weather"
 ---
-<div id="weather">
-</div>
+<div id="weather"></div>
