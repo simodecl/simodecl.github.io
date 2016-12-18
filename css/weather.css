@@ -165,7 +165,7 @@ i {
   content: "S"; }
 
 #weather h2 {
-  margin: 100px 0 0;
+  margin: 0;
   color: #6C6;
   font-size: 6rem;
   font-weight: 300;
@@ -189,5 +189,16 @@ i {
 
 #weather .currently {
   margin: 0 20px; }
+
+.blue-bikes p {
+  margin: 0;
+  padding: 0; }
+.blue-bikes .bold {
+  font-weight: 700; }
+.blue-bikes h3 {
+  padding-top: 25px;
+  margin-bottom: 5px;
+  color: #6C6;
+  border-bottom: solid 1px #6C6; }
 
 /*# sourceMappingURL=weather.css.map */

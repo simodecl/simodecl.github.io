@@ -2,4 +2,9 @@
 layout  : default
 title   : "Weather"
 ---
-<div id="weather"></div>
+<div class="container">
+    <div id="weather">
+    </div>
+    <div class="blue-bikes">
+    </div>
+</div>
