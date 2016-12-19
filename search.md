@@ -28,7 +28,6 @@ title   : "Search"
                 <option value="tweedehands"></option>
                 <option value="vegetarische-restaurants"></option>
             </datalist>
-        <!--<button type="submit" class="search-btn"><i class="fa fa-search" aria-hidden="true"></i> Search</button>-->
     </form>
     <a href="" id="back-to-top" title="Back to top"><i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i></a>
     <div class="results">
