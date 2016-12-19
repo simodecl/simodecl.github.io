@@ -22,6 +22,10 @@
         });
     }
 
+    function capitalizeFirstLetter(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+
     function Search() {
 
         // URL of the Search API
@@ -87,7 +91,7 @@
                 var resto = this._Results[i];
                 tempStr += '<div class="search-result">';
                 tempStr += '<i class="fa fa-star fa-star-o" aria-hidden="true"></i>';
-                tempStr += '<h3 class="restaurant-name">' + resto.NAAM + '</h3>';
+                tempStr += '<h3 class="restaurant-name">' + capitalizeFirstLetter(resto.NAAM) + '</h3>';
                 tempStr += '<p>' + resto.STRAAT + ' ' + resto.NUMMER + '</p>';
                 tempStr += '<a target="_blank" href="http://' + resto.WEBADRES + '">' + resto.WEBADRES + '</a>';
                 tempStr += '<p class="category"> ' + resto.CATEGORIE + ' / ' + resto.LABEL + '</p>';
