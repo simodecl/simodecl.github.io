@@ -1,5 +1,5 @@
 var map;
-var radius = 50;
+var radius = 10;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
@@ -17,16 +17,16 @@ function initMap() {
       };
 
       var tempStr = '';
-      
+
       Utils.getJSONByPromise('https://datatank.stad.gent/4/milieuennatuur/ecoplan.geojson').then(function (results) {
         for (var i = 0; i < results.features.length; i++) {
           var coords = results.features[i].geometry.coordinates;
           var latLng = new google.maps.LatLng(coords[1], coords[0]);
-          
+
           var distance = Utils.calculateDistanceBetweenTwoCoordinates(coords[1], coords[0], pos.lat, pos.lng);
 
           if (distance <= radius) {
-            
+
             tempStr += '<div class="restaurant">';
             tempStr += '<h3 class="restaurant-name">' + results.features[i].properties.NAAM + '</h3>';
             tempStr += '<p class="restaurant-address">' + results.features[i].properties.STRAAT + ' ' + results.features[i].properties.NUMMER + '</p>';
@@ -39,21 +39,21 @@ function initMap() {
               position: latLng,
               map: map,
               icon: 'resources/images/markers/ecoplan.png'
-              
+
             });
 
             var infowindow = new google.maps.InfoWindow({
-                        content: " "
-                      });
-                      google.maps.event.addListener(marker, 'click', function() {
-                        infowindow.setContent('<div class="restaurant">' +
-                            '<h3 class="restaurant-name">' + this.properties.NAAM + '</h3>' +
-                            '<p class="restaurant-address">' + this.properties.STRAAT + ' ' + this.properties.NUMMER + '</p>' +
-                            '<a target="_blank" href="http://' + this.properties.WEBADRES + '">' + this.properties.WEBADRES + '</a>' +
-                            '<p class="distance">' + distance.toFixed(1) + ' km</p>' +
-                            '</div>');
-                        infowindow.open(map, this);
-                      });
+              content: " "
+            });
+            google.maps.event.addListener(marker, 'click', function () {
+              infowindow.setContent(
+                '<h3 class="restaurant-name">' + this.properties.NAAM + '</h3>' +
+                '<p class="restaurant-address">' + this.properties.STRAAT + ' ' + this.properties.NUMMER + '</p>' +
+                '<a target="_blank" href="http://' + this.properties.WEBADRES + '">' + this.properties.WEBADRES + '</a>' +
+                '<p class="distance">' + distance.toFixed(1) + ' km</p>'
+              );
+              infowindow.open(map, this);
+            });
 
           };
         }
