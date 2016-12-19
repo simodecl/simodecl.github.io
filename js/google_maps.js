@@ -1,5 +1,5 @@
 var map;
-var radius = 5;
+var radius = 10;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
@@ -72,7 +72,7 @@ function initMap() {
       });
       var cityCircle = new google.maps.Circle({
         strokeColor: '#66CC66',
-        strokeOpacity: 0.5,
+        strokeOpacity: 0.25,
         strokeWeight: 2,
         fillColor: '#66CC66',
         fillOpacity: 0.125,

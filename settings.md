@@ -15,8 +15,8 @@ title   : "Settings"
             <label for="curr-pw"><i class="fa fa-lock" aria-hidden="true"></i></label><input class="input-settings" type="password" name="curr-pw" placeholder="Current password"><br>
             <label for="new-pw"><i class="fa fa-lock" aria-hidden="true"></i></label><input class="input-settings" type="password" name="new-pw" placeholder="New password"><br>
             <h2>Search options</h2>
-            <p><span class="bold">Radius: </span><span id="distance">5 km</span></p>
-            <input id="slider" type="range" name="slider" min="1" max="20" step="1" value="5">
+            <p><span class="bold">Radius: </span><span id="distance">10 km</span></p>
+            <input id="slider" type="range" name="slider" min="1" max="20" step="1" value="10">
             <a class="cancel-link" href="/home.html">Cancel</a>
             <button type="submit" class="settings-btn">Save changes</button>
         </form>
