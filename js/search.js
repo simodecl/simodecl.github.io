@@ -107,6 +107,12 @@
             });
 
 
+            $('.search-input').click(function(){
+                $(this).val('');
+                $('.search-result').show();
+            });
+
+
             $('.fa-star').on('click', function () {
                 $(this).toggleClass('fa-star-o');
             });
