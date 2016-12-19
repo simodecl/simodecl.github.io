@@ -1,9 +1,9 @@
 var map;
-var radius = 10;
+var radius = 5;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 13,
+    zoom: 10,
     center: new google.maps.LatLng(51.048017, 3.727666),
     streetViewControl: false
   });
@@ -57,7 +57,11 @@ function initMap() {
 
           };
         }
-        document.querySelector('.results').innerHTML = tempStr;
+        if (tempStr) {
+          document.querySelector('.results').innerHTML = tempStr;
+        } else {
+          document.querySelector('.results').innerHTML = '<p class="no-results">Sorry, we couldn\'t find anything.</p>';
+        }
       });
 
       var selfMarker = new google.maps.Marker({
