@@ -9,9 +9,10 @@ title   : "Profile"
             <img src="resources/images/profile-placeholder.jpg" alt="Profile picture" class="user-image">
         </div>
         <div class="user-text">
-            <h3>Name Surname</h3>
-            <p>street and number</p>
-            <p>postal code and city</p>
+            <h3 id="name">Name Surname</h3>
+            <p id="email">Email</p>
+            <p id="location-street">street and number</p>
+            <p id="location-city">postal code and city</p>
         </div>
     </div>
     <div class="favourites">

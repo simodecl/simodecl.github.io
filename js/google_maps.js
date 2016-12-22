@@ -1,5 +1,5 @@
 var map;
-var radius = 10;
+var radius = localStorage.getItem("slider");
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
