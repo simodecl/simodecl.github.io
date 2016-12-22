@@ -10,7 +10,6 @@ title   : "Profile"
         </div>
         <div class="user-text">
             <h3 id="name">Name Surname</h3>
-            <p id="email">Email</p>
             <p id="location-street">street and number</p>
             <p id="location-city">postal code and city</p>
         </div>
