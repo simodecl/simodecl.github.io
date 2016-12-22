@@ -26,12 +26,12 @@ $(document).ready(function(){
 
 
 function loadSettings() {
-    $('#distance').html(localStorage.getItem("slider") + " km");
-    $('#slider').val(localStorage.getItem("slider"));
-    $('#name > span').html(localStorage.getItem("name"));
-    $('#email > span').html(localStorage.getItem("email"));
-    $("#location-street > span").html(localStorage.getItem("locationstreet"));
-    $("#location-city > span").html(localStorage.getItem("locationcity"));
+    if(localStorage.getItem("slider") != null) {$('#distance').html(localStorage.getItem("slider") + " km")};
+    if(localStorage.getItem("slider") != null) {$('#slider').val(localStorage.getItem("slider"))};
+    if(localStorage.getItem("name") != null) {$('#name > span').html(localStorage.getItem("name"))};
+    if(localStorage.getItem("email") != null) {$('#email > span').html(localStorage.getItem("email"))};
+    if(localStorage.getItem("locationstreet") != null) {$("#location-street > span").html(localStorage.getItem("locationstreet"))};
+    if(localStorage.getItem("locationcity") != null) {$("#location-city > span").html(localStorage.getItem("locationcity"))};
 }
 
 function saveSettings() {
