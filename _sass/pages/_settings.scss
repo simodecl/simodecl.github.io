@@ -1,6 +1,6 @@
 @import '../abstracts/variables';
 .container-settings{
-    max-width:500px;
+    max-width:500px !important;
 }
 .settings{
     filter:grayscale(100%);
