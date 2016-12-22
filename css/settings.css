@@ -1,3 +1,6 @@
+.container-settings {
+  max-width: 500px; }
+
 .settings {
   filter: grayscale(100%); }
 

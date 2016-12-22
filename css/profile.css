@@ -55,7 +55,7 @@ p {
 
 .title-green {
   color: #6C6;
-  margin-bottom: 0; }
+  margin-bottom: 5px; }
 
 .favourite {
   border-bottom: solid 1px #EEE;
@@ -78,9 +78,6 @@ i {
   color: #6C6;
   float: right;
   margin-top: 0.2rem; }
-
-.unfavourite {
-  filter: grayscale(100%); }
 
 #back-to-top {
   position: fixed;

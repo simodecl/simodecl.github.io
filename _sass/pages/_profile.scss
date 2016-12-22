@@ -64,7 +64,7 @@ p{
 }
 .title-green{
     color:$groen;
-    margin-bottom:0;
+    margin-bottom:5px;
 }
 
 .favourite{
@@ -88,9 +88,6 @@ i{
     color:$groen;
     float: right;
     margin-top:0.2rem;
-}
-.unfavourite{
-    filter:grayscale(100%);
 }
 
 #back-to-top{

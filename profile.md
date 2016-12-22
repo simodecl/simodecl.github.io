@@ -17,45 +17,8 @@ title   : "Profile"
     <div class="favourites">
     <h1 class="title-green">Favourites</h1>
     <a href="" id="back-to-top" title="Back to top"><i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i></a>
-        <div class="favourite">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <h3 class="restaurant-name">Restaurant</h3>
-            <p>Street and number</p>
-        </div>
-        <div class="favourite">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <h3 class="restaurant-name">Restaurant</h3>
-            <p>Street and number</p>
-        </div>
-        <div class="favourite">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <h3 class="restaurant-name">Restaurant</h3>
-            <p>Street and number</p>
-        </div>
-        <div class="favourite">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <h3 class="restaurant-name">Restaurant</h3>
-            <p>Street and number</p>
-        </div>
-        <div class="favourite">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <h3 class="restaurant-name">Restaurant</h3>
-            <p>Street and number</p>
-        </div>
-        <div class="favourite">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <h3 class="restaurant-name">Restaurant</h3>
-            <p>Street and number</p>
-        </div>
-        <div class="favourite">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <h3 class="restaurant-name">Restaurant</h3>
-            <p>Street and number</p>
-        </div>
-        <div class="favourite">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <h3 class="restaurant-name">Restaurant</h3>
-            <p>Street and number</p>
+        <div class='results'>
+            <div class="loader"></div>
         </div>
     </div>
 </div>
