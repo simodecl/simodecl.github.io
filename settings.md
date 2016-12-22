@@ -3,12 +3,11 @@ layout  : default
 title   : "Settings"
 ---
 <div class="container">
-    <p><span class="bold">Name: </span><span id="name">placeholder</span></p>
-    <p><span class="bold">E-mail address: </span><span id="email">placeholder</span></p>
+    <p><span class="bold">Name: </span><div id="name"><span class="edit-span">Manaus Transez</span></div></p>
+    <p><span class="bold">E-mail address: </span><div id="email"><span class="edit-span">manatran@student.arteveldehs.be</span></div></p>
     <p id="small-margin"><span class="bold">Location: </span></p>
-    <p class="location location-street">placeholder 12</p>
-    <p class="location location-city">1234 placeholder</p>
-    <a href="" class="edit">Edit</a>
+    <p class="location" id="location-street"><span class="edit-span">placeholder 12</span></p>
+    <p class="location" id="location-city"><span class="edit-span">1234 placeholder</span></p>
     <h2>Change password</h2>
     <div class="form-wrap">
         <form class="settings-form">

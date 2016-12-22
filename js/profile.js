@@ -1,4 +1,6 @@
 ; (function () {
+    loadSettings();    
+
     $('.fa-star').on('click', function(){
         $(this).toggleClass('fa-star-o');
         //$(this).addClass('unfavourite');
@@ -27,4 +29,11 @@
                 }, 333);
             });
         }
+
+    function loadSettings() {
+    if(localStorage.getItem("name") != null) {$('#name').html(localStorage.getItem("name"))};
+    if(localStorage.getItem("email") != null) {$('#email').html(localStorage.getItem("email"))};
+    if(localStorage.getItem("locationstreet") != null) {$("#location-street").html(localStorage.getItem("locationstreet"))};
+    if(localStorage.getItem("locationcity") != null) {$("#location-city").html(localStorage.getItem("locationcity"))};
+} 
 })();
