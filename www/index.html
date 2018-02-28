@@ -1,0 +1,53 @@
+---
+layout    : default
+title     : "Homepage"
+permalink : "/"
+---
+<main class="container dark graph_container">
+  <h1>Your statistics</h1>
+  <div class="calories">
+    <p><span id="totalBurnt">0</span> of 500 calories burnt</p>
+  </div>
+  <div id="graph">
+    <!-- Loader -->
+    <div class="showbox">
+      <div class="loader">
+        <svg class="circular" viewBox="25 25 50 50">
+          <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10">
+          </circle>
+        </svg>
+      </div>
+    </div>
+
+  </div>
+</main>
+<main class="container dropshadow nomargin responsive">
+  <ul class="stats_list">
+    <li class="stat_item">
+      <i class="material-icons">directions_run</i>
+      <p>Distance walked</p><span id="distance">0 m</span>
+    </li>
+    <li class="stat_item">
+      <i class="material-icons">cloud</i>
+      <p>Weather</p><span id="temperature">unknown</span>
+    </li>
+    <li class="stat_item">
+      <i class="material-icons">location_on</i>
+      <p>Location</p><span id="location">unknown</span>
+    </li>
+  </ul>
+
+<h2>Featured restaurant</h2>
+
+<div id="featured">
+  <!-- Loader -->
+  <div class="showbox">
+    <div class="loader">
+      <svg class="circular" viewBox="25 25 50 50">
+        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+      </svg>
+    </div>
+  </div>
+</div>
+
+</main>

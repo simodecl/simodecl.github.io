@@ -1,0 +1,33 @@
+<nav>
+  <div class="main-nav">
+    <a href="/exercise/"><i style="display:inline;" class="material-icons md-dark">arrow_back</i></a>
+    <h1>{{ page.title }}</h1>
+  </div>
+
+<!-- Assign active class accordingly -->
+  <ul class="tabs">
+    <li
+
+    {%if page.permalink == '/exercise/walking/' %}
+        class="active"
+    {% endif %}
+
+    ><a href="/exercise/walking/">Walking</a></li>
+
+    <li
+
+    {%if page.permalink == '/exercise/cardio/' %}
+        class="active"
+    {% endif %}
+
+    ><a href="/exercise/cardio/">Cardio</a></li>
+
+    <li
+
+    {%if page.permalink == '/exercise/strength/' %}
+        class="active"
+    {% endif %}
+
+    ><a href="/exercise/strength/">Strength</a></li>
+  </ul>
+</nav>

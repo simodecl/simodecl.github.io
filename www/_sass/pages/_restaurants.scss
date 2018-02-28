@@ -1,0 +1,58 @@
+/* Restaurants */
+
+#map{
+  max-width:100%;
+  padding:16px;
+  height:300px;
+  margin-top:56px;
+  background-color: $grey;
+}
+
+.restaurant{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  i{
+    opacity:0.32;
+    font-size:64px;
+    color: $secondary;
+    margin:0 16px 0 0;
+  }
+
+  .info{
+    h2{
+      margin:0;
+    }
+    .light{
+      text-align: left;
+    }
+    p{
+      margin:0;
+    }
+    a{
+      color:$secondary;
+    }
+    a:visited{
+      color:$main;
+    }
+  }
+}
+
+.images{
+  display: flex;
+  max-width: 100%;
+  margin-top:32px;
+  max-height:360px;
+  align-items: center;
+  flex-direction: row;
+
+  .image{
+    margin:0 2px;
+    width: 33.333%;
+    background-size:cover;
+    background-position: center;
+    box-sizing: border-box;
+    padding-bottom:33.3333%;
+  }
+}

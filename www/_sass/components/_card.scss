@@ -1,0 +1,24 @@
+/* Card */
+
+.card{
+  width:66%;
+  display: flex;
+  max-width:350px;
+  margin: 8px auto;
+  padding:16px 32px;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.5);
+
+  img{
+    width:64px;
+    height:64px;
+    margin:0 auto;
+    padding-bottom: 16px;
+  }
+  a{
+    color:$secondary;
+    text-align:center;
+    text-decoration: none;
+  }
+}

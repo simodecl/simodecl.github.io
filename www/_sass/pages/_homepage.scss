@@ -1,0 +1,102 @@
+/* Homepage */
+.graph_container{
+  min-height: 260px;
+  position: relative;
+
+  h1{
+    margin-top:0;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .calories{
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 116px;
+    margin:80px auto;
+    position:absolute;
+    text-align: center;
+
+    #totalBurnt{
+      font-size: 20px;
+      font-weight:bold;
+      color:$secondarylight;
+    }
+  }
+
+  #graph{
+    width:100%;
+    height:250px;
+  }
+}
+.stats_list{
+  margin:0;
+  padding:0 0 16px 0;
+  list-style-type: none;
+  border-bottom: solid 1px $lightgrey;
+
+  .stat_item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    i{
+      color:$grey;
+      font-size: 32px;
+      margin-right: 32px;
+    }
+    p{
+      flex-grow: 2;
+    }
+    span{
+      color:$secondary;
+    }
+  }
+}
+
+#featured{
+  margin:0 auto;
+  max-width:500px;
+  border-radius: 5px;
+
+  #featured_img{
+    width:100%;
+    height:100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+
+  #content{
+    top:-8px;
+    color:white;
+    padding:16px;
+    position: relative;
+    background-color:$main;
+    box-sizing: border-box;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px; 
+    box-shadow: 0 -3px 6px rgba(0,0,0,0.25);
+
+    h1{
+      margin:0;
+    }
+    p{
+      margin:0;
+    }
+  }
+
+  .buttons{
+    display: flex;
+    margin-top:32px;
+    flex-direction: row;
+    justify-content: space-between;
+
+    a{
+      color:white;
+      font-weight: bold;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+}

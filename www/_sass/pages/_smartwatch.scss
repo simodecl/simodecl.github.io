@@ -1,0 +1,23 @@
+.smartwatch{
+  margin:0;
+  padding:0;
+  z-index: 0;
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .smartwatch-img{
+    z-index:-1;
+    max-width: 100%;
+  }
+  .smartwatch-iframe{
+    z-index: 0;
+    width:250px;
+    height:280px;
+    border: none;
+    border-radius: 5px;
+    overflow-y: hidden;
+    position: absolute;
+  }
+}

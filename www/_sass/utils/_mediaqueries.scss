@@ -1,0 +1,23 @@
+/* Media queries */
+
+@media (min-width: 1309px) {
+  .main-nav{
+    i{
+      display: none;
+    }
+  }
+  #sidebar{
+    left: 0;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+  }
+  .container, .calories{
+    padding-left:316px;
+  }
+  #map{
+    margin-left: 309px;
+  }
+  .message-form{
+    width:50%;
+    right:32px;
+  }
+}

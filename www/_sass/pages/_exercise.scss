@@ -1,0 +1,50 @@
+/* Exercise */
+
+header{
+  margin:0 auto;
+  height:100px;
+  margin-top:112px;
+  margin-bottom:16px;
+  background-size:cover;
+  background-position: bottom;
+}
+@media (min-width: 1000px) {
+  header{
+    height:200px;
+  }
+}
+
+.listresults{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+
+  li.item{
+    color:$darkgrey;
+    padding:8px 0;
+    cursor:pointer;
+
+    i.material-icons{
+      margin-top:8px;
+      font-size:32px;
+    }
+  }
+}
+
+.panel {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 16px;
+  background-color: white;
+  transition: max-height 0.2s ease-out;
+
+  p{
+    margin-top:0;
+  }
+
+  h3{
+    color:$darkgrey;
+    font-size:16px;
+    padding-top:16px;
+  }
+}

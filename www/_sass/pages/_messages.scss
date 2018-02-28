@@ -1,0 +1,63 @@
+.correspondent{
+  display: flex;
+  align-items: center;
+  padding-bottom:16px;
+  border-bottom: solid 1px $lightgrey;
+
+  img{
+    border-radius: 50%;
+  }
+  h3{
+    margin-left:16px;
+  }
+}
+@keyframes grow {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+.messages{
+  height:65vh;
+  overflow: auto;
+  margin:8px auto;
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 1px $lightgrey;
+
+  .received-message{
+    margin:4px;
+    color:white;
+    padding:16px;
+    display: inline-block;
+    background-color:$secondary;
+    border-radius:16px 16px 16px 0;
+  }
+  .sent-message{
+    margin:4px;
+    padding:16px;
+    color:$darkgrey;
+    display: inline-block;
+    float:right;
+    background-color:$lightgrey;
+    border-radius:16px 16px 0 16px;
+  }
+  .new-message{
+    animation-timing-function:ease-out;
+    transform-origin:bottom right;
+    animation-name: grow;
+    animation-duration: 300ms;
+  }
+}
+.message-form{
+  background-color:white;
+  width:95%;
+  float:right;
+  position: fixed;
+  bottom:16px;
+  i{
+    margin-left: 16px;
+    cursor: pointer;
+  }
+  i:hover{
+    color:$secondary;
+  }
+}

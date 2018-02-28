@@ -1,0 +1,39 @@
+# Site settings
+# -------------
+baseurl     : "" # the subpath of your site, e.g. /blog/
+colour      : primary
+language    : nl
+host        : 127.0.0.1
+port        : 4000
+
+# SEO
+# ---
+title      : &title Vigor
+description: "The path to a healthy lifestyle starts with us."
+author     : "Simon Decloedt & Manaus Transez"
+tracking_id: "UA-79628300-1"
+url        : "https://manatran.github.io/"
+image      : "https://i.imgur.com/Wr6l4gc.png"
+
+# Build settings
+# --------------
+gems:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jemoji
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+exclude:
+  - Gemfile
+  - LICENSE
+  - README.md

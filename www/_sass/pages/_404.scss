@@ -1,0 +1,65 @@
+/* 404 */
+
+.four-oh-four{
+  margin-top:0;
+  color:white;
+  padding:0 64px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: $dark;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-image: url('/images/deer.png');
+
+  .content{
+    z-index: 1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    a.link{
+      color:$secondarylight;
+      text-decoration: none;
+
+    }
+  }
+
+  i.error{
+    margin-top:132px;
+    font-size: 64px;
+  }
+
+  h1{
+    margin-bottom:32px;
+  }
+
+  h1.light{
+    font-size:20px;
+  }
+  .light{
+    font-size: 14px;
+    color:$lightgrey;
+  }
+  .button{
+    bottom:16px;
+    position: absolute;
+  }
+
+}
+
+/*.four-oh-four::after {
+  z-index: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+  opacity: 0.08;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-image:url('/images/deer.png');
+}
+*/
