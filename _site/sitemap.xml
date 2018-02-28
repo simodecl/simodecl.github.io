@@ -1,28 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/home.html</loc>
+    <loc>https://manatran.github.io//404.html</loc>
   </url>
   <url>
-    <loc>/</loc>
+    <loc>https://manatran.github.io//exercise/cardio/</loc>
   </url>
   <url>
-    <loc>/profile.html</loc>
+    <loc>https://manatran.github.io//exercise/</loc>
   </url>
   <url>
-    <loc>/search.html</loc>
+    <loc>https://manatran.github.io//</loc>
   </url>
   <url>
-    <loc>/settings.html</loc>
+    <loc>https://manatran.github.io//login/</loc>
   </url>
   <url>
-    <loc>/signup.html</loc>
+    <loc>https://manatran.github.io//messages/</loc>
   </url>
   <url>
-    <loc>/weather.html</loc>
+    <loc>https://manatran.github.io//music/</loc>
   </url>
   <url>
-    <loc>/404.html</loc>
-    <lastmod>2016-12-10T23:43:15+01:00</lastmod>
+    <loc>https://manatran.github.io//registration/</loc>
+  </url>
+  <url>
+    <loc>https://manatran.github.io//restaurant/</loc>
+  </url>
+  <url>
+    <loc>https://manatran.github.io//restaurants/</loc>
+  </url>
+  <url>
+    <loc>https://manatran.github.io//settings/</loc>
+  </url>
+  <url>
+    <loc>https://manatran.github.io//smartwatch/</loc>
+  </url>
+  <url>
+    <loc>https://manatran.github.io//social/</loc>
+  </url>
+  <url>
+    <loc>https://manatran.github.io//exercise/strength/</loc>
+  </url>
+  <url>
+    <loc>https://manatran.github.io//exercise/walking/</loc>
   </url>
 </urlset>

@@ -1,87 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>404 | Stay Fresh</title>
-    <script src="{{ 'https://use.fontawesome.com/238b9bcd2b.js' }}"></script>
-    <link rel="stylesheet" href="{{ 'https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en' }}'">
-    <link rel="stylesheet" href="{{ 'https://fonts.googleapis.com/icon?family=Material+Icons' }}'">
-    <link rel="stylesheet" href="{{ 'https://code.getmdl.io/1.2.1/material.min.css' }}'">
-    <link rel="stylesheet" href="'css/main.css'">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="icon" href="resources/images/icon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <style>
-    html{
-        background: #6C6;
-    }
-    .logo-white{
-        display: block;
-        text-align: center;
-        margin:10px auto 30px auto;
-        width: 80%;
-        max-width: 500px;
-    }
-    .container{
-        font-family: Roboto, sans-serif;
-        display: block;
-        width: 90%;
-        max-width: 1024px;
-        margin: 0 auto;
-        min-height: 100%;
-        overflow: hidden;
-        text-align: center;
-        color: #FFF;
-    }
-    h1{
-        font-weight:bolder;
-        margin:0 auto;
-        font-size:3rem;
-    }
-    a{
-        color: #FFF;
-        font-weight:900;
-    }
-    p{
-        margin:10px;
-    }
-.video-container {
-position: relative;
-padding-top: 30px;
-height: 0;
+---
+layout    : login
+title     : "404"
+---
+<main class="four-oh-four container">
+  <div class="content">
 
-} 
-.video-container iframe {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-opacity:0;
-}
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="warning">
-            <img class="logo-white" src="resources/images/logo_wit.png" alt="Logo white">
-            
-            <h1>404</h1>
-            <h2>Looks like you're lost!</h2>
-            
-            <p>The page you're looking for doesn't exist.</p>
-            <p><a href="/home.html">Click here to go home!</a></p>
-        </div>
-    
-<div class="video-container">
-    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&amp;autoplay=1" allowfullscreen="" frameborder="0">
-    </iframe>
-</div>
-</div>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="{{ 'js/google_maps.js' | prepend: site.baseurl }}"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZjdkPRPUiE1g-9mwlroHO8Y5Aff9BO_s&callback=initMap"></script>
-    <script src="{{ 'js/main.js' | prepend: site.baseurl }}"></script>
-    <script src="js/{{ page.title | downcase }}.js"></script>
-</body>
-</html>
+    <i class="material-icons error">error</i>
+    <h1>You got a 404!</h1>
+
+    <h1 class="light">Apparently, the page you're looking for doesn't exist.</h1>
+
+    <p class="light">Click <a class="link" href="javascript:history.back()">here</a> to go back to the previous page, or the button below to go back to the homepage.</p>
+
+    <a class="button" href="/">Homepage</a>
+
+  </div>
+</main>

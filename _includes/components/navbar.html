@@ -1,9 +1,68 @@
-<nav class="navbar">
-    <ul>
-        <li class="icon settings"><a href="settings.html"><img src="resources/images/icons/settings.png" alt="Settings"></a></li>
-        <li class="icon search"><a href="search.html"><img src="resources/images/icons/search.png" alt="Search"></a></li>
-        <li class="icon home"><a href="home.html"><img id="big" src="resources/images/icons/home.png" alt="Home"></a></li>
-        <li class="icon profile"><a href="profile.html"><img src="resources/images/icons/profile.png" alt="Profile"></a></li>
-        <li class="icon weather"><a href="weather.html"><img src="resources/images/icons/weather.png" alt="Weather"></a></li>
-    </ul>
+<nav>
+  <div class="main-nav">
+    <i id="burger" class="material-icons md-dark">menu</i>
+    <h1>{{ page.title }}</h1>
+  </div>
+
+  <aside id="sidebar">
+    <section class="head">
+      <img src="/images/logo.png" alt="Vigor Logo">
+      <p class="username">username</p>
+      <a id="logout">Log out</a>
+    </section>
+
+    <section class="navigation">
+      <ul>
+        <a href="/"><li
+          {%if page.permalink == '/' %}
+            class="active"
+          {% endif %}
+        >
+          <i class="material-icons">home</i>Homepage
+        </li></a>
+
+        <a href="/exercise/"><li
+          {%if page.permalink == '/exercise/' %}
+            class="active"
+          {% endif %}
+          >
+          <i class="material-icons">directions_run</i>Exercise
+        </li></a>
+
+        <a href="/restaurants/"><li
+          {%if page.permalink == '/restaurants/' or  page.permalink == '/restaurant/' %}
+            class="active"
+          {% endif %}
+          >
+          <i class="material-icons">restaurant_menu</i>Restaurants
+        </li></a>
+
+        <a href="/music/"><li
+          {%if page.permalink == '/music/' %}
+            class="active"
+          {% endif %}
+          >
+          <i class="material-icons">music_note</i>Music
+        </li></a>
+
+        <a href="/settings/"><li
+          {%if page.permalink == '/settings/' %}
+            class="active"
+          {% endif %}
+          >
+          <i class="material-icons">settings</i>Settings
+        </li></a>
+
+        <a href="/social/"><li
+          {%if page.permalink == '/social/' or  page.permalink == '/messages/' %}
+            class="active"
+          {% endif %}
+          >
+          <i class="material-icons">group</i>Social
+        </li></a>
+
+      </ul>
+    </section>
+  </aside>
+
 </nav>

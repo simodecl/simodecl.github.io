@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="icon" href="/images/favicon.png">
+  <title>Restaurants | Vigor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta property="og:url" content="https://manatran.github.io/" />
+  <meta property="og:title" content="Vigor" />
+  <meta property="og:image" content="https://i.imgur.com/Wr6l4gc.png" />
+  <meta property="og:description" content="The path to a healthy lifestyle starts with us." />
+</head>
+
+<body>
+
+<nav>
+  <div class="main-nav">
+    <i id="burger" class="material-icons md-dark">menu</i>
+    <h1>Restaurants</h1>
+  </div>
+
+  <aside id="sidebar">
+    <section class="head">
+      <img src="/images/logo.png" alt="Vigor Logo">
+      <p class="username">username</p>
+      <a id="logout">Log out</a>
+    </section>
+
+    <section class="navigation">
+      <ul>
+        <a href="/"><li
+          
+        >
+          <i class="material-icons">home</i>Homepage
+        </li></a>
+
+        <a href="/exercise/"><li
+          
+          >
+          <i class="material-icons">directions_run</i>Exercise
+        </li></a>
+
+        <a href="/restaurants/"><li
+          
+            class="active"
+          
+          >
+          <i class="material-icons">restaurant_menu</i>Restaurants
+        </li></a>
+
+        <a href="/music/"><li
+          
+          >
+          <i class="material-icons">music_note</i>Music
+        </li></a>
+
+        <a href="/settings/"><li
+          
+          >
+          <i class="material-icons">settings</i>Settings
+        </li></a>
+
+        <a href="/social/"><li
+          
+          >
+          <i class="material-icons">group</i>Social
+        </li></a>
+
+      </ul>
+    </section>
+  </aside>
+
+</nav>
+
+
+    <a href="#" id="btn-top"><i class="material-icons">keyboard_arrow_up</i></a>
+<main class="container dropshadow responsive">
+
+  <form class="inline_form">
+    <i class="material-icons">sort</i>
+    <select placeholder="Order by" name="order">
+      <option value="" disabled selected>Order by</option>
+      <option value="az">A - Z</option>
+      <option value="za">Z - A</option>
+    </select>
+  </form>
+
+  <h2>Restaurants near you</h2>
+  <ul class="listresults">
+    <div class="showbox">
+      <div class="loader">
+        <svg class="circular" viewBox="25 25 50 50">
+          <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+        </svg>
+      </div>
+    </div>
+  </ul>
+</main>
+
+
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="/js/utilities.js"></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/pages/restaurants.js"></script>
+</body>
+
+</html>
+

@@ -8,12 +8,12 @@ port        : 4000
 
 # SEO
 # ---
-title      : &title Stay Fresh
-description: "New Media Design & Development I at Artevelde University College Ghent"
-author     : Simon Decloedt & Manaus Transez
+title      : &title Vigor
+description: "The path to a healthy lifestyle starts with us."
+author     : "Simon Decloedt & Manaus Transez"
 tracking_id: "UA-79628300-1"
-# url        :
-# image      :
+url        : "https://manatran.github.io/"
+image      : "https://i.imgur.com/Wr6l4gc.png"
 
 # Build settings
 # --------------
@@ -31,6 +31,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 sass:
+  sass_dir: _sass
   style: compressed
 exclude:
   - Gemfile
